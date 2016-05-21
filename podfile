@@ -1,0 +1,13 @@
+platform :ios, "7.0"
+use_frameworks!
+target '百思程序' do
+pod "AFNetworking"
+pod "SDWebImage"
+pod "SVProgressHUD"
+pod "MJExtension"
+pod "MJRefresh"
+pod "DACircularProgress"
+pod "pop"
+pod 'NJKWebViewProgress'
+end
+
