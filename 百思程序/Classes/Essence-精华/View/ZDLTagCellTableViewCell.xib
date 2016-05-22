@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="111" id="KGk-i7-Jjw" customClass="ZDLTagCellTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="422" height="110.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+订阅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wi-42-0VK">
+                        <rect key="frame" x="343" y="45" width="51" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.83438318062827221" green="0.076369680534476528" blue="0.062848339902021044" alpha="0.76133089539007093" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYM-ql-kql">
+                        <rect key="frame" x="88" y="30" width="51" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="cKp-LH-L2F"/>
+                            <constraint firstAttribute="width" constant="51" id="eEU-hi-jYW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wQn-Yd-k6X">
+                        <rect key="frame" x="23" y="30" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="7KS-CC-Bi6"/>
+                            <constraint firstAttribute="height" constant="50" id="M4w-iB-iCn"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efA-V7-Rxl">
+                        <rect key="frame" x="88" y="60" width="51" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="51" id="0hn-Uo-fEw"/>
+                            <constraint firstAttribute="height" constant="20" id="qMq-SX-ezl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o02-lp-JEL">
+                        <rect key="frame" x="349" y="45.5" width="50" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="4IG-my-JZW"/>
+                            <constraint firstAttribute="width" constant="50" id="geC-n3-avw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="＋订阅" backgroundImage="FollowBtnBg">
+                            <color key="titleColor" red="1" green="0.082067648579999999" blue="0.14081308749999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="0.64297983156028371" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="o02-lp-JEL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="GEN-1t-LFc"/>
+                    <constraint firstItem="efA-V7-Rxl" firstAttribute="leading" secondItem="wQn-Yd-k6X" secondAttribute="trailing" constant="15" id="GgI-7q-GpN"/>
+                    <constraint firstItem="wQn-Yd-k6X" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="LO5-YU-ssG"/>
+                    <constraint firstItem="efA-V7-Rxl" firstAttribute="bottom" secondItem="wQn-Yd-k6X" secondAttribute="bottom" id="Nf5-lp-2rG"/>
+                    <constraint firstItem="pYM-ql-kql" firstAttribute="top" secondItem="wQn-Yd-k6X" secondAttribute="top" id="W5A-yj-H49"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="o02-lp-JEL" secondAttribute="trailing" constant="15" id="eSj-mx-rdN"/>
+                    <constraint firstItem="wQn-Yd-k6X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="feA-qS-Cv8"/>
+                    <constraint firstItem="pYM-ql-kql" firstAttribute="leading" secondItem="wQn-Yd-k6X" secondAttribute="trailing" constant="15" id="h94-zA-HEL"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="6wi-42-0VK"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.83438318062827221" green="0.076369680534476528" blue="0.062848339902021044" alpha="0.092614140070921988" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="imageListView" destination="wQn-Yd-k6X" id="ADQ-nS-g1Q"/>
+                <outlet property="subNumberLabel" destination="efA-V7-Rxl" id="eAY-kG-96m"/>
+                <outlet property="themeNameLabel" destination="pYM-ql-kql" id="kXz-wo-ike"/>
+            </connections>
+            <point key="canvasLocation" x="282" y="210.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FollowBtnBg" width="51" height="25"/>
+    </resources>
+</document>

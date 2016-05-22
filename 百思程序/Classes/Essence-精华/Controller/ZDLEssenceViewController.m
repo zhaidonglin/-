@@ -8,6 +8,7 @@
 
 #import "ZDLEssenceViewController.h"
 #import <AFNetworking/AFNetworking.h>
+#import "ZDLTagViewController.h"
 
 @interface ZDLEssenceViewController ()
 
@@ -17,13 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
     self.view.backgroundColor   = ZDLGlobalBg;
     
 }
 - (void) tagClick{
-    ZDLLogFunc;
+    ZDLTagViewController *tag = [[ZDLTagViewController alloc] init];
+    [self.navigationController pushViewController:tag animated:YES ];
+    
 }
-
 @end

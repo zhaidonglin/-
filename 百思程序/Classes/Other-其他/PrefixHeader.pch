@@ -11,8 +11,12 @@
 
 #import "UIView+ZDLExtension.h"
 #import "UIBarButtonItem+ZDLExtension.h"
+#import "ZDLConst.h"
+#import "UIImage+ZDLExtension.h"
+#import "UIImageView+ZDLExtension.h"
 
 #ifdef DEBUG
+
 #define ZDLLog(...) NSLog(__VA_ARGS__)
 #else
 #define ZDLLog(...)
