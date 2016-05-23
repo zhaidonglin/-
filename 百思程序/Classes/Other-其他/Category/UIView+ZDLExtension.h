@@ -16,8 +16,8 @@
 
 @property (nonatomic, assign) CGFloat height;
 
-@property (nonatomic, assign) CGSize x;
+@property (nonatomic, assign) CGFloat x;
 
-@property (nonatomic, assign) CGSize y;
+@property (nonatomic, assign) CGFloat y;
 
 @end

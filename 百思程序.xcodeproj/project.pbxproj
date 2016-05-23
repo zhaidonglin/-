@@ -11,6 +11,12 @@
 		183B64461CD9F3C400469389 /* ZDLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B64451CD9F3C400469389 /* ZDLMeViewController.m */; };
 		183B64491CD9F45A00469389 /* ZDLFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B64481CD9F45A00469389 /* ZDLFriendTrendsViewController.m */; };
 		183B644B1CD9F46D00469389 /* ZDLFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183B644A1CD9F46D00469389 /* ZDLFriendTrendsViewController.xib */; };
+		184BE0F41CF335510095E3F4 /* ZDLTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE0F31CF335510095E3F4 /* ZDLTopicViewController.m */; };
+		184BE0F81CF335B50095E3F4 /* ZDLAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE0F71CF335B50095E3F4 /* ZDLAllViewController.m */; };
+		184BE0FB1CF335D20095E3F4 /* ZDLPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE0FA1CF335D20095E3F4 /* ZDLPictureViewController.m */; };
+		184BE0FE1CF335F30095E3F4 /* ZDLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE0FD1CF335F30095E3F4 /* ZDLVideoViewController.m */; };
+		184BE1011CF336170095E3F4 /* ZDLVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE1001CF336170095E3F4 /* ZDLVoiceViewController.m */; };
+		184BE1041CF33ECC0095E3F4 /* ZDLWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE1031CF33ECC0095E3F4 /* ZDLWordViewController.m */; };
 		18746B891CDC461A00D67FA7 /* ZDLRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18746B871CDC461A00D67FA7 /* ZDLRecommendViewController.m */; };
 		18746B8A1CDC461A00D67FA7 /* ZDLRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18746B881CDC461A00D67FA7 /* ZDLRecommendViewController.xib */; };
 		189808731CD98387003B2BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189808721CD98387003B2BB8 /* main.m */; };
@@ -65,6 +71,18 @@
 		183B64471CD9F45A00469389 /* ZDLFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLFriendTrendsViewController.h; sourceTree = "<group>"; };
 		183B64481CD9F45A00469389 /* ZDLFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLFriendTrendsViewController.m; sourceTree = "<group>"; };
 		183B644A1CD9F46D00469389 /* ZDLFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDLFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		184BE0F21CF335510095E3F4 /* ZDLTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLTopicViewController.h; sourceTree = "<group>"; };
+		184BE0F31CF335510095E3F4 /* ZDLTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLTopicViewController.m; sourceTree = "<group>"; };
+		184BE0F61CF335B50095E3F4 /* ZDLAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLAllViewController.h; sourceTree = "<group>"; };
+		184BE0F71CF335B50095E3F4 /* ZDLAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLAllViewController.m; sourceTree = "<group>"; };
+		184BE0F91CF335D20095E3F4 /* ZDLPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLPictureViewController.h; sourceTree = "<group>"; };
+		184BE0FA1CF335D20095E3F4 /* ZDLPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLPictureViewController.m; sourceTree = "<group>"; };
+		184BE0FC1CF335F30095E3F4 /* ZDLVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLVideoViewController.h; sourceTree = "<group>"; };
+		184BE0FD1CF335F30095E3F4 /* ZDLVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLVideoViewController.m; sourceTree = "<group>"; };
+		184BE0FF1CF336170095E3F4 /* ZDLVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLVoiceViewController.h; sourceTree = "<group>"; };
+		184BE1001CF336170095E3F4 /* ZDLVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLVoiceViewController.m; sourceTree = "<group>"; };
+		184BE1021CF33ECC0095E3F4 /* ZDLWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLWordViewController.h; sourceTree = "<group>"; };
+		184BE1031CF33ECC0095E3F4 /* ZDLWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLWordViewController.m; sourceTree = "<group>"; };
 		18746B861CDC461A00D67FA7 /* ZDLRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLRecommendViewController.h; sourceTree = "<group>"; };
 		18746B871CDC461A00D67FA7 /* ZDLRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLRecommendViewController.m; sourceTree = "<group>"; };
 		18746B881CDC461A00D67FA7 /* ZDLRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDLRecommendViewController.xib; sourceTree = "<group>"; };
@@ -147,6 +165,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184BE0F51CF335600095E3F4 /* topic */ = {
+			isa = PBXGroup;
+			children = (
+				184BE0F21CF335510095E3F4 /* ZDLTopicViewController.h */,
+				184BE0F31CF335510095E3F4 /* ZDLTopicViewController.m */,
+				184BE0F61CF335B50095E3F4 /* ZDLAllViewController.h */,
+				184BE0F71CF335B50095E3F4 /* ZDLAllViewController.m */,
+				184BE0F91CF335D20095E3F4 /* ZDLPictureViewController.h */,
+				184BE0FA1CF335D20095E3F4 /* ZDLPictureViewController.m */,
+				184BE0FC1CF335F30095E3F4 /* ZDLVideoViewController.h */,
+				184BE0FD1CF335F30095E3F4 /* ZDLVideoViewController.m */,
+				184BE0FF1CF336170095E3F4 /* ZDLVoiceViewController.h */,
+				184BE1001CF336170095E3F4 /* ZDLVoiceViewController.m */,
+				184BE1021CF33ECC0095E3F4 /* ZDLWordViewController.h */,
+				184BE1031CF33ECC0095E3F4 /* ZDLWordViewController.m */,
+			);
+			name = topic;
+			sourceTree = "<group>";
+		};
 		189808651CD98387003B2BB8 = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +271,7 @@
 		189808A61CD9874B003B2BB8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				184BE0F51CF335600095E3F4 /* topic */,
 				189808CF1CD99B92003B2BB8 /* ZDLEssenceViewController.h */,
 				189808D01CD99B92003B2BB8 /* ZDLEssenceViewController.m */,
 				18AFE86E1CF1A553003D358F /* ZDLTagViewController.h */,
@@ -644,7 +682,9 @@
 				189808D11CD99B92003B2BB8 /* ZDLEssenceViewController.m in Sources */,
 				18AFE8841CF1ECD3003D358F /* UIImageView+ZDLExtension.m in Sources */,
 				183B64461CD9F3C400469389 /* ZDLMeViewController.m in Sources */,
+				184BE0FE1CF335F30095E3F4 /* ZDLVideoViewController.m in Sources */,
 				189808761CD98387003B2BB8 /* AppDelegate.m in Sources */,
+				184BE1041CF33ECC0095E3F4 /* ZDLWordViewController.m in Sources */,
 				18AFE8701CF1A553003D358F /* ZDLTagViewController.m in Sources */,
 				183B64431CD9F39500469389 /* ZDLNewViewControllew.m in Sources */,
 				18AFE8871CF1F755003D358F /* UIImage+ZDLExtension.m in Sources */,
@@ -652,10 +692,14 @@
 				189808CE1CD99127003B2BB8 /* ZDLNavigationController.m in Sources */,
 				189808E11CD9CCC5003B2BB8 /* UIView+ZDLExtension.m in Sources */,
 				189808CB1CD98C83003B2BB8 /* ZDLTabBarController.m in Sources */,
+				184BE0FB1CF335D20095E3F4 /* ZDLPictureViewController.m in Sources */,
 				18E2ED041CDD9BB500AE097D /* ZDLRecommendCategoryCell.m in Sources */,
 				18746B891CDC461A00D67FA7 /* ZDLRecommendViewController.m in Sources */,
+				184BE0F81CF335B50095E3F4 /* ZDLAllViewController.m in Sources */,
 				189808731CD98387003B2BB8 /* main.m in Sources */,
 				18AFE8811CF1D60A003D358F /* ZDLConst.m in Sources */,
+				184BE1011CF336170095E3F4 /* ZDLVoiceViewController.m in Sources */,
+				184BE0F41CF335510095E3F4 /* ZDLTopicViewController.m in Sources */,
 				18E2ED091CDD9BE400AE097D /* ZDLRecommendUserCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
