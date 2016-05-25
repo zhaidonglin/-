@@ -7,12 +7,18 @@
 //
 
 #import "ZDLVideoViewController.h"
-
+#import "ZDLTopic.h"
 @interface ZDLVideoViewController ()
 
 @end
 
 @implementation ZDLVideoViewController
+- (ZDLTopicType)type
+{
+    return ZDLTopicTypeVideo;
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

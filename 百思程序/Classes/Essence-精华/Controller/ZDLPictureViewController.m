@@ -7,12 +7,19 @@
 //
 
 #import "ZDLPictureViewController.h"
+#import "ZDLTopic.h"
 
 @interface ZDLPictureViewController ()
 
 @end
 
 @implementation ZDLPictureViewController
+- (ZDLTopicType)type
+{
+    return ZDLTopicTypePicture;
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

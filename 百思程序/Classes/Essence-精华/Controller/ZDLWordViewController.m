@@ -7,12 +7,19 @@
 //
 
 #import "ZDLWordViewController.h"
+#import "ZDLTopic.h"
 
 @interface ZDLWordViewController ()
 
 @end
 
 @implementation ZDLWordViewController
+- (ZDLTopicType)type
+{
+    return ZDLTopicTypeWord;
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -7,12 +7,19 @@
 //
 
 #import "ZDLVoiceViewController.h"
+#import "ZDLTopic.h"
 
 @interface ZDLVoiceViewController ()
 
 @end
 
 @implementation ZDLVoiceViewController
+- (ZDLTopicType)type
+{
+    return ZDLTopicTypeVoice;
+    
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

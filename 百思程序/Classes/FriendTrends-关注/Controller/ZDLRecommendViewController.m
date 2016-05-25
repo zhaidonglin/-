@@ -34,17 +34,17 @@ static NSString *const ZDLCategoryId = @"category";
     self.title = @"推荐关注";
     self.view.backgroundColor = ZDLGlobalBg;
    
-    [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeBlack];
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"categoary";
     params[@"c"] = @"subscribe";
-    [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params success:^(NSURLSessionDataTask *task, id responseObject) {
+    [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         
         ZDLLog(@"%@", responseObject);
 
         [SVProgressHUD dismiss];
         
-        self.categories = [ZDLRecommendCategory objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        self.categories = [ZDLRecommendCategory mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
         
         [self.categoryTableView reloadData];
         

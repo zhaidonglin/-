@@ -17,6 +17,8 @@
 		184BE0FE1CF335F30095E3F4 /* ZDLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE0FD1CF335F30095E3F4 /* ZDLVideoViewController.m */; };
 		184BE1011CF336170095E3F4 /* ZDLVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE1001CF336170095E3F4 /* ZDLVoiceViewController.m */; };
 		184BE1041CF33ECC0095E3F4 /* ZDLWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE1031CF33ECC0095E3F4 /* ZDLWordViewController.m */; };
+		186FC5F21CF49CB20021143F /* ZDLTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FC5F11CF49CB20021143F /* ZDLTopic.m */; };
+		186FC5F51CF4A9620021143F /* ZDLTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FC5F41CF4A9620021143F /* ZDLTitleButton.m */; };
 		18746B891CDC461A00D67FA7 /* ZDLRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18746B871CDC461A00D67FA7 /* ZDLRecommendViewController.m */; };
 		18746B8A1CDC461A00D67FA7 /* ZDLRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18746B881CDC461A00D67FA7 /* ZDLRecommendViewController.xib */; };
 		189808731CD98387003B2BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189808721CD98387003B2BB8 /* main.m */; };
@@ -83,6 +85,10 @@
 		184BE1001CF336170095E3F4 /* ZDLVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLVoiceViewController.m; sourceTree = "<group>"; };
 		184BE1021CF33ECC0095E3F4 /* ZDLWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLWordViewController.h; sourceTree = "<group>"; };
 		184BE1031CF33ECC0095E3F4 /* ZDLWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLWordViewController.m; sourceTree = "<group>"; };
+		186FC5F01CF49CB20021143F /* ZDLTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLTopic.h; sourceTree = "<group>"; };
+		186FC5F11CF49CB20021143F /* ZDLTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLTopic.m; sourceTree = "<group>"; };
+		186FC5F31CF4A9620021143F /* ZDLTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLTitleButton.h; sourceTree = "<group>"; };
+		186FC5F41CF4A9620021143F /* ZDLTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLTitleButton.m; sourceTree = "<group>"; };
 		18746B861CDC461A00D67FA7 /* ZDLRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLRecommendViewController.h; sourceTree = "<group>"; };
 		18746B871CDC461A00D67FA7 /* ZDLRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLRecommendViewController.m; sourceTree = "<group>"; };
 		18746B881CDC461A00D67FA7 /* ZDLRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDLRecommendViewController.xib; sourceTree = "<group>"; };
@@ -285,6 +291,8 @@
 			children = (
 				18AFE8791CF1C9D6003D358F /* ZDLTag.h */,
 				18AFE87A1CF1C9D6003D358F /* ZDLTag.m */,
+				186FC5F01CF49CB20021143F /* ZDLTopic.h */,
+				186FC5F11CF49CB20021143F /* ZDLTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,6 +303,8 @@
 				18AFE8711CF1A985003D358F /* ZDLTagCellTableViewCell.h */,
 				18AFE8721CF1A985003D358F /* ZDLTagCellTableViewCell.m */,
 				18AFE8731CF1A985003D358F /* ZDLTagCellTableViewCell.xib */,
+				186FC5F31CF4A9620021143F /* ZDLTitleButton.h */,
+				186FC5F41CF4A9620021143F /* ZDLTitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -674,6 +684,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E2ED101CDD9C9100AE097D /* ZDLRecommendUser.m in Sources */,
+				186FC5F51CF4A9620021143F /* ZDLTitleButton.m in Sources */,
 				18AFE8741CF1A985003D358F /* ZDLTagCellTableViewCell.m in Sources */,
 				189808DC1CD9B469003B2BB8 /* ZDLTabBar.m in Sources */,
 				189808E41CD9CD33003B2BB8 /* UIBarButtonItem+ZDLExtension.m in Sources */,
@@ -686,6 +697,7 @@
 				189808761CD98387003B2BB8 /* AppDelegate.m in Sources */,
 				184BE1041CF33ECC0095E3F4 /* ZDLWordViewController.m in Sources */,
 				18AFE8701CF1A553003D358F /* ZDLTagViewController.m in Sources */,
+				186FC5F21CF49CB20021143F /* ZDLTopic.m in Sources */,
 				183B64431CD9F39500469389 /* ZDLNewViewControllew.m in Sources */,
 				18AFE8871CF1F755003D358F /* UIImage+ZDLExtension.m in Sources */,
 				183B64491CD9F45A00469389 /* ZDLFriendTrendsViewController.m in Sources */,

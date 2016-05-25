@@ -7,6 +7,7 @@
 //
 
 #import "ZDLTopicViewController.h"
+#import "ZDLTopic.h"
 
 @interface ZDLTopicViewController ()
 
