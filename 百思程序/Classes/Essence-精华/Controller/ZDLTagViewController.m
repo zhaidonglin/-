@@ -62,12 +62,16 @@ static NSString *const ZDLTagCell = @"tag";
                   
                   if (responseObject == nil) {
                       [SVProgressHUD showErrorWithStatus:@"加载标签数据失败"];
+                      
                       return;
                   }
                   
                   weakSelf.tags = [ZDLTag mj_objectArrayWithKeyValuesArray:responseObject];
                   
                   [weakSelf.tableView reloadData];
+                  
+                  [SVProgressHUD dismiss];
+
     }
      
               failure:^(NSURLSessionDataTask *task, NSError *error) {
@@ -86,6 +90,7 @@ static NSString *const ZDLTagCell = @"tag";
 }
 - (void)dealloc{
     [self.manager invalidateSessionCancelingTasks:YES];
+    
     [SVProgressHUD dismiss];
     
 }
