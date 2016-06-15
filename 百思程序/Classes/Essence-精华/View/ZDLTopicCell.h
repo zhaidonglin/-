@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ZDLTopic;
 
 @interface ZDLTopicCell : UITableViewCell
 
+// 帖子模型
+@property (nonatomic, strong)ZDLTopic *topic;
 @end

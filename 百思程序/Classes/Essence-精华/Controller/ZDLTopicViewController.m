@@ -20,17 +20,23 @@ static NSString * const ZDLTopicCellId = @"topic";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+   
+    [self setUpTable];
+    
+    
+    
+}
+- (void)setUpTable{
+    
     self.tableView.backgroundColor = ZDLGlobalBg;
     
     self.tableView.contentInset = UIEdgeInsetsMake(ZDLNavBarMaxY + ZDLTitlesViewH, 0, ZDLTabBarH, 0);
     
-//    self.tableView.scrollIndicatorInsets = self.tableView.contentInset;
-//    
-//    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    //    self.tableView.scrollIndicatorInsets = self.tableView.contentInset;
+    //
+    //    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([ZDLTopicCell class]) bundle:nil] forCellReuseIdentifier:ZDLTopicCellId];
-    
-    
     
 }
 
